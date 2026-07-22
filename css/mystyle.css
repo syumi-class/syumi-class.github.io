@@ -20,7 +20,8 @@ footer{
     color: #000000;
     padding-top: 10px;
     padding-bottom: 10px;
-    }
+    clear: both;
+}
 
 footer p {
     font-size: small;
@@ -118,6 +119,7 @@ header img {
     background: linear-gradient(to right,#99cccc,#ff9966);
     padding-top: 5px;
     padding-left: 10px;
+    margin: 0;
 }
 
 .point-list {
@@ -175,6 +177,42 @@ nav ul a:active {
     color: #ff0000;
 }
 
+aside h1 {
+    color: #000000;
+    font-size: 120%;
+    border-bottom: 2px dotted #666666;
+    padding-left: 5px;
+    margin: 0;
+}
+
+aside li {
+    border-bottom: 1px dotted #666666;
+}
+
+aside ul {
+    margin: 0;
+}
+
+aside a {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+aside a:hover {
+    background-color: #dcdcdc;
+}
+
+.syumi-kiji {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+}
 
 /* 959px以下の場合 */
 @media(max-width: 959px){
